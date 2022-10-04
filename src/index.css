@@ -1,0 +1,894 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.btn--HomePage{
+    background-color: var(--customOrange);
+    padding: 1rem 2rem;
+    border: 3px solid var(--customOrange);
+}
+.btn--HomePage:hover,
+.btn--HomePage:active,
+.btn--HomePage:focus{
+    background-color: white;
+    padding: 1rem 2rem;
+    border: 3px solid var(--customOrange);
+    color: var(--customOrange);
+}
+.first-div--HomePage h1{
+    font-size:  1.25rem;
+    color: white;
+}
+.first-div--HomePage span{
+    color: #BBBBBB;
+}
+.first-div--HomePage div{
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem
+}
+.bg-card--HomePage{
+    background-color: var(--secondCustomBlack);
+}
+.border-card--HomePage,
+.div-card--HomePage .el-card,
+.div-card--OurBlogSection .el-card,
+.first-card-div--Menu .el-card{
+    border: none;
+    border-radius: 0rem;
+    background-color: var(--secondCustomBlack);
+}
+.border--OurMenuSection{
+    border-bottom: 1px solid #BBBBBB;
+}
+.div-bg--HomePage{
+    background-color: var(--secondCustomBlack);
+}
+.div--OurBlogSection{
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+}
+.div--OurBlogSection h1{
+    color: white;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+.div--OurBlogSection span{
+    color: #BBBBBB;
+}
+.bg--Footer{
+    background-color: var(--customBlack) ;
+}
+.div-icon--Footer  svg{
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+a.router-link-active,
+li.router-link-active > a {
+ color: #BBBBBB;
+}
+#menu ul li:hover,
+.div--Footer ul li:hover{
+color:#BBBBBB;
+}
+.div-tabs--Menu .el-tabs,
+.div-tabs--Menu .el-tabs .el-tabs__header,
+.div-tabs--Menu .el-tabs .el-tabs__item.is-top.is-active,
+.div-tabs--Menu .el-tabs .el-tabs__item.is-top{
+border:none;
+background-color: var(--customBlack);
+color: #BBBBBB;
+}
+.div-tabs--Menu .el-tabs .el-tabs__item.is-top.is-active{
+    color: white;
+    background-color: var(--customBlack);
+}
+.div-tabs--Menu > .el-tabs--border-card > .el-tabs__header .el-tabs__item:not(.is-disabled):hover{
+  color: white;  
+}
+.div-tabs--Menu .el-tabs .el-tabs__content{
+    padding: 4rem 0rem;
+}
+.bg--Map{
+    background-color: var(--secondCustomBlack);
+}
+.bg-text--About{
+    background-image: linear-gradient(to right, rgba(25, 22, 27, 0.92), rgba(25, 22, 27, 0));
+}
+.bg--About{
+    background-color: rgba(255, 255, 255, 0.03);
+}
+.border-hr--About{
+        border: 2px dashed rgba(255, 255, 255, 0.15); 
+}
+.first-btn--Blog{
+    background-color:rgba(255, 196, 146, 0.47);
+    color: white;
+    padding: 1rem 3rem;
+}
+.bg-text--Blog{
+    background-color: rgba(20, 17, 21, 0.81);
+}
+.form--ContactUs .el-form-item .el-input__wrapper,
+.form--ContactUs .el-form-item .el-textarea__inner{
+    background-color: transparent;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.04);
+    border-radius: 0rem;
+    padding: 1rem 1.5rem;
+    color: white;
+}
+.form--ContactUs .el-form-item .el-input__wrapper:hover,
+.form--ContactUs .el-form-item .el-input__wrapper.is-focus,
+.form--ContactUs .el-form-item .el-textarea__inner:hover,
+.form--ContactUs .el-form-item .el-textarea__inner:focus{
+    box-shadow: 0 0 0 1px white;
+}
+.form--ContactUs .el-form-item .el-input__inner::placeholder,
+.form--ContactUs .el-form-item .el-textarea__inner::placeholder,
+.form--ContactUs .el-form-item .el-input__inner{
+    color: white;
+}
+.btn-ContactUs .el-form-item__content .el-button{
+    background-color: #27252D;
+    padding: 2rem 2.5rem;
+    border: 3px solid #27252D;
+    border-radius: 0rem;
+}
+.btn-ContactUs  .el-form-item__content .el-button:hover,
+.btn-ContactUs  .el-form-item__content .el-button:focus,
+.btn-ContactUs  .el-form-item__content .el-button:active{
+    background-color: rgba(255, 255, 255, 0.04);
+    padding: 2rem 2.5rem;
+    border: 3px solid #27252D;
+    border-radius: 0rem;
+}
+
+
+
+
+
+@media (max-width:600px){
+    .second-div--HomePage{
+        display: flex;
+        flex-direction: column;
+        padding: 3rem 1rem;
+        gap:4rem;
+      }
+    .first-title--HomePage,
+    .first-title--OurMenuSection{
+        font-size: 2.5rem;
+      }
+    .div-cards--HomePage{
+        display: flex;
+        flex-direction: column;
+        padding: 0rem;
+        padding-top: 1rem;
+      }
+    .first-image--HomePage{
+        padding: 0rem;
+      }
+    .div-h1-line--HomePage{
+        padding: 1.5rem 1rem ;
+      }
+    .div-p-span--HomePage{
+        display:flex;
+        flex-direction: column;
+        gap:1.5rem;
+        padding: 0rem 1rem;
+      }
+    .main-div-six-cards--HomePage{
+        display: flex;
+        flex-direction: column;
+        padding: 0rem 1rem;
+      }
+    .border-card--HomePage{
+        border: 0rem;
+      }
+    .div-card--HomePage {
+        padding: 2.5rem 1.5rem ;
+      }
+    .div-h1-line--OurMenuSection{
+        padding: 1rem;
+      }
+    .first-div--OurMenuSection{
+        display: flex;
+        flex-direction: column;
+        gap:2rem;
+        padding: 0rem 1rem;
+      }
+    .text-padding--OurMenuSection{
+        padding: 0rem 1rem;
+      }
+    .div-six-cards--OurMenuSection{
+        display: flex;
+        flex-direction: column;
+        gap:0.5rem;
+        padding: 0rem;
+      }
+    .div-card--HomePage{
+        padding: 1.5rem 0rem;
+      }
+    .second-div--OurMenuSection{
+        display: flex;
+        flex-direction: column;
+        padding: 0rem;
+        gap:2rem;
+      }
+    .div-bg--HomePage{
+        padding: 3rem 1rem;
+      }
+    .div-padding--OurMenuSection{
+        padding-bottom: 3rem;
+      }
+    .first-title--OurBlogSection{
+        font-size: 2.5rem;
+        padding: 3rem 0rem;
+        line-height: normal;
+        text-align: center;
+      }
+    .div-three-cards--OurBlogSection{
+        display: flex;
+        flex-direction: column;
+        gap:1rem;
+        padding-bottom: 3rem;
+      }
+    .body-card--OurBlogSection{
+        padding: 2rem 0.5rem;
+      }
+    .first-div--LocateMap{
+        display: flex;
+        flex-direction: column;
+        gap:1rem;
+        padding: 3rem 0rem;
+      }
+    .bg--Map{
+        padding: 1rem;
+      }
+    .second-div--Footer{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap:1.5rem;
+      }
+    .third-div--Footer{
+        display: flex;
+        flex-direction: column;
+        gap:1.5rem;
+      }
+    .div-icon--Footer{
+        padding: 0rem;
+      }
+    .first-div--Menu{
+        padding: 3rem 1rem;
+      }
+    .second-div--Menu{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap:1.5rem;
+      }
+    .div-tabs--Menu .el-tabs .el-tabs__nav-prev {
+      left:0.5rem;
+    }
+    .div-tabs--Menu .el-tabs .el-tabs__nav-next{
+      right: 0.5rem;
+    }
+    .div-cards--TabsMenu{
+      display: flex;
+      flex-direction: column;
+      gap:2rem;
+    }
+    .main-div-tabs--TabsMenu{
+      padding-bottom: 0rem;
+    }
+    .div-tabs--Menu .el-tabs .el-tabs__content{
+      padding: 1rem 0rem;
+    }
+    .first-div--About{
+      display: flex;
+      flex-direction: column;
+      gap:2rem;
+      padding: 3rem 1rem;
+    }
+    .first-title--About{
+      font-size: 2.5rem ;
+    }
+    .three-cards--About{
+      display: flex;
+      flex-direction: column;
+      padding: 0.5rem 0rem;
+    }
+    .first-image--About{
+      padding: 0rem;
+    }
+    .bg-text--About{
+      width: 100%;
+      height: 20rem;
+      padding-left: 1rem;
+    }
+    .second-image--About{
+      height: 20rem;
+      width: 100%;
+    }
+    .first-title--About{
+      font-size: 1.5rem;
+    }
+    .text-image--About{
+      font-size: 0.9rem;
+      color: white;
+    }
+    .second-title--About{
+      font-size: 2.5rem;
+      padding: 3rem 0rem;
+      text-align: center;
+    }
+    .bg--About{
+      padding: 0rem 1rem;
+    }
+    .div-four-cards--About{
+      display: flex;
+      flex-direction: column;
+    }
+    .line--About{
+      margin: 0rem;
+    }
+    .border-hr--About{
+      display: none;
+    }
+    .data-h1--About{
+      padding-top: 1rem;
+    }
+    .second-div--About{
+      padding: 0rem 1rem;
+      padding-top: 3rem;
+      padding-bottom: 0.5rem;
+      display: flex;
+      flex-direction: column;
+      gap:2rem;
+    }
+    .third-title--About{
+      font-size: 2.375rem;
+      text-align: center;
+    }
+    .fourth-title--About{
+      font-size: 2.5rem;
+    }
+    .main-div--OurStory{
+      display: flex;
+      flex-direction: column;
+      padding: 0rem 1rem;
+      padding-top: 3rem;
+      padding-bottom: 0.5rem;
+      gap:2rem;
+    }
+    .div-image--OurStory{
+      display: flex;
+      flex-direction: column;
+      gap:1.5rem;
+    }
+    .first-title--OurStory{
+      font-size: 2.5rem;
+    }
+    .first-image--OurStory{
+      padding: 0rem;
+    }
+    .main-div--Blog{
+      padding: 3rem 0rem;
+    }
+    .first-title--Blog{
+      font-size: 2.5rem;
+    }
+    .first-div--Blog{
+      display: flex;
+      flex-direction: column;
+    }
+    .first-image--Blog{
+      width: 100%;
+      height: 25rem;
+    }
+    .bg-text--Blog{
+      width: 100%;
+      height: 25rem;
+      padding: 2rem 1rem;
+    }
+    .second-title--Blog{
+      font-size: 2rem;
+    }
+    .avatar-image--Blog{
+      height: 4rem;
+      width: 4rem;
+    }
+    .second-div--Blog{
+      display: flex;
+      flex-direction: column;
+      gap:2rem;
+    }
+    .third-div--Blog{
+      display: flex;
+      flex-direction: column;
+      padding: 0.5rem 1rem;
+      gap:1rem;
+    }
+    .text-space--Blog{
+      display: flex;
+      gap:0.5rem;
+    }
+    .second-image--Blog{
+      height: auto;
+      width: auto;
+    }
+    .third-title--Blog{
+      font-size: 2.5rem;
+      padding-bottom: 2rem;
+    }
+    .div-four-cards--Blog{
+      display: flex;
+      flex-direction: column;
+      gap:3rem;
+    }
+    .main-cards--Blog{
+      display: flex;
+      flex-direction: column;
+      gap:1rem;
+    }
+    .third-image--Blog{
+      height: auto;
+      width: auto;
+    }
+    .avatar-FIO-Data--Blog{
+      display: flex;
+      gap:2rem;
+    }
+    .fourth-div--Blog{
+      display: flex;
+      gap:2rem;
+      padding: 0.5rem 1rem;
+    }
+    .div-padding--Blog{
+      padding-bottom: 2rem;
+    }
+    .main-div--ContactUs{
+      display: flex;
+      flex-direction: column;
+      padding: 0rem 1rem;
+      padding-top: 3rem;
+      padding-bottom: 1rem;
+      gap:2rem;
+    }
+    .first-div--ContactUs{
+      width: 100% ;
+    }
+    .first-title--ContactUs{
+      font-size: 2.5rem;
+      white-space: pre-wrap;
+      text-align: center;
+    }
+    .div-two-input--Footer{
+      display: flex;
+      flex-direction: column;
+      gap:0.5rem;
+    }
+    .form--ContactUs{
+      display: flex;
+      gap:0.5rem;
+    }
+    .first-image--ContactUs{
+      padding: 0rem;
+    }
+    .main-div--BlogInner{
+      padding: 3rem 1rem;
+      gap:2rem;
+    }
+    .div-gap--BlogInner{
+      gap:0rem;
+    }
+    .first-div--BlogInner{
+      text-align: center;
+    }
+    .first-title--BlogInner{
+      font-size: 2.5rem;
+    }
+    .first-image--BlogInner{
+      padding: 1.5rem 0rem;
+      height: auto;
+    }
+    .second-div--BlogInner{
+      padding: 0rem 1rem;
+      padding-bottom: 1.5rem;
+    }
+    .div-gap--BlogInner{
+      gap:1.5rem;
+    }
+    .second-title--BlogInner{
+      padding: 1rem 0rem ;
+    }
+    .cards--HomePage{
+      display: flex;
+      flex-direction: column;
+      padding: 0rem 1rem;
+      padding-bottom: 2.5rem;
+      gap:1rem;
+    }
+    
+} 
+
+@media(min-width:601px) and (max-width:800px){
+  .second-div--HomePage{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4rem 1rem;
+    gap:4rem;
+  }
+  .div-cards--HomePage{
+    gap:2rem;
+  }
+  .first-image--HomePage{
+    padding: 0rem;
+  }
+  .div-p-span--HomePage{
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0rem 1rem;
+  }
+  .div-h1-line--HomePage{
+    padding: 0rem 1rem;
+  }
+  .first-title--HomePage{
+    font-size: 2.5rem;
+  }
+  .border-third-card--HomePage{
+    border-right: 1px solid var(--customWhite)
+  }
+  .cards--HomePage,
+  .div-six-cards--OurMenuSection,
+  .div-three-cards--OurBlogSection{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr)); 
+  }
+  .div-padding--OurMenuSection{
+    padding: 5rem 1rem;
+  }
+  .first-div--OurMenuSection{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+  }
+  .second-div--OurMenuSection{
+    display: flex;
+    flex-direction: column;
+  }
+  .div-bg--HomePage{
+    padding:  1.5rem;
+  }
+  .first-title--OurBlogSection{
+    text-align: center;
+  }
+  .first-div--LocateMap{
+    display: flex;
+    flex-direction: column;
+  }
+  .bg--Map{
+    padding:  1.5rem;
+  }
+  .first-div--Menu{
+    padding: 3rem 1rem;
+  }
+  .second-div--Menu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:1.5rem;
+  }
+  .div-cards--TabsMenu{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr)); 
+  }
+  .div-tabs--Menu .el-tabs .el-tabs__nav-prev{
+    left: 0.5rem;
+  }
+  .div-tabs--Menu .el-tabs .el-tabs__nav-next{
+    right: 0.7rem;
+  }
+  .main-div-tabs--TabsMenu{
+    padding-bottom: 1rem;
+  }
+  .first-div--About{
+    padding: 3rem 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .first-image--About{
+    padding: 0rem;
+    width: auto;
+  }
+  .bg-text--About{
+    width: 100%;
+    height: 23.5rem;
+    padding-left: 2rem;
+    gap:1.5rem; 
+  }
+  .second-image--About{
+    height: 23.5rem;
+  }
+  .border-hr--About{
+    display: none;
+  }
+  .div-four-cards--About{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr)); 
+  }
+  .bg--About{
+    padding: 0rem 1rem;
+  }
+  .line--About{
+    margin: 0rem;
+  }
+  .second-title--About{
+    text-align: center;
+  }
+  .second-div--About{
+    padding: 3rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+  }
+  .main-div--OurStory{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 1rem;
+    gap:2rem;
+  }
+  .first-image--OurStory{
+    padding: 0rem;
+  }
+  .text-div--OurStory{
+    align-items: center;
+  }
+  .main-div--Blog{
+    padding: 3rem 1rem;
+  }
+  .first-div--Blog{
+    display: flex;
+    flex-direction: column;
+  }
+  .first-image--Blog{
+    height: 25rem;
+    width: 100%;
+  }
+  .bg-text--Blog{
+    height: 25rem;
+    width: 100%;
+    padding: 1rem 1.5rem;
+  }
+  .second-image--Blog{
+    height: auto;
+    width: auto;
+  }
+  .div-four-cards--Blog,
+  .main-cards--Blog{
+    display: flex;
+    flex-direction: column;
+  }
+  .third-image--Blog{
+    height: auto;
+    width: auto;
+  }
+  .div-padding--Blog{
+    padding-bottom: 3rem;
+  }
+  .main-div--ContactUs{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 1rem;
+  }
+  .first-div--ContactUs{
+    width: 100%;
+  }
+  .first-image--ContactUs{
+    padding: 0rem;
+  }
+  .main-div--BlogInner{
+    padding: 3rem 1rem;
+  }
+  .first-image--BlogInner{
+    height: auto;
+    width: auto;
+  }
+  .second-div--BlogInner{
+    padding: 0rem 1rem;
+  }
+  .second-div--Footer{
+    padding: 0rem 1rem;
+  }
+  .third-div--Footer{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+  }
+  .div-icon--Footer{
+    padding: 0rem;
+  }
+ 
+}
+@media(min-width:801px) and (max-width:1536px){
+  .second-div--HomePage{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:2rem;
+    padding: 6rem 1rem;
+  }
+  .div-three-cards--OurBlogSection{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr)); 
+  }
+  .first-title--OurBlogSection{
+    text-align: center;
+  }
+  .span-text--OurBlogSection{
+    font-size: 1.5rem;
+  }
+  .second-div--OurMenuSection{
+    display: flex;
+    flex-direction: column;
+  }
+  .div-bg--HomePage{
+    padding: 1.5rem;
+  }
+  .third-div--Footer{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+  }
+  .div-icon--Footer{
+    padding: 0rem;
+  }
+  .first-div--About{
+    display: flex;
+    flex-direction: column;
+  }
+  .second-image--About{
+    width: 100%;
+    height: 25rem;
+  }
+  .bg-text--About{
+    width: 100%;
+    height: 25rem;
+  }
+  .main-div--OurStory{
+    display: flex;
+    flex-direction: column;
+  }
+  .text-div--OurStory{
+    padding-top: 2rem;
+    align-items: center;
+  }
+  .first-div--Menu,
+  .main-div-tabs--TabsMenu,
+  .first-div--About,
+  .second-div--About,
+  .main-div--OurStory,
+  .main-div--Blog{
+    padding: 6rem 1rem;
+  }
+  .first-div--Blog{
+    display: flex;
+    flex-direction: column;
+  }
+  .first-image--Blog{
+    height: 30rem;
+    width: 100%;
+  }
+  .bg-text--Blog{
+    height: 30rem;
+    width: 100%;
+    padding: 1.5rem;
+  }
+  .main-cards--Blog{
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+  }
+  .div-four-cards--Blog{
+    padding: 0rem 1rem;
+  }
+  .main-div--ContactUs{
+    display: flex;
+    flex-direction: column;
+    padding: 6rem 1rem;
+  }
+  .first-div--ContactUs{
+    width: 100%;
+  }
+  .text-for-padding--BlogInner{
+    padding: 1rem;
+  }
+  .two-image--HomePage{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media(max-width:800px){
+  #header {
+    position: absolute;
+    top: 1.9rem;
+    right: 2.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 40;
+    }
+  
+  #header::before {
+    content: "";
+    position: absolute;
+    width: 1.563rem;
+    height: 0.2rem;
+    background: #fff;
+    transform: translateY(-0.625rem);
+    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+      }
+    
+  #header::after {
+    content: "";
+    position: absolute;
+    width: 1.563rem;
+    height: 0.2rem;
+    background: #fff;
+    box-shadow: 0 0.625rem 0 0;
+    color: #fff;
+    transition: 0.4s;
+      }
+  
+  .active#header::before {
+      transform: rotate(45deg);
+      transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+  
+  .active#header::after {
+      transform: rotate(-45deg);
+      transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+      box-shadow: none;
+    }
+  
+  #menu {
+      position: fixed;
+      top: 0;
+      left: 100%;
+      width: 100%;
+      height: 100vh;
+      background: black;
+      z-index: 30;
+      padding-top: 1rem;
+    }
+  #menu ul {
+      position: relative;
+      margin-top: 3.125rem;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      gap: 0rem;
+      height: auto;
+    }
+  #menu ul li {
+      list-style: none;
+      color: white;
+      padding: 0.938rem 2.5rem;
+      font-size: 1.5rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+  .active#menu {
+      left: 0;
+    }
+  #menu.active::after {
+      font-size: 0rem;
+    }
+}
