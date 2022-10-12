@@ -21,20 +21,20 @@
       >
         <h1 class="text-[#BBBBBB]">© 2021 Finsweet | All rights reserved.</h1>
         <div class="flex gap-6 div-icon--Footer pr-36">
-          <a target="_blank" href="https://www.facebook.com/"
+          <a target="_blank" href="https://www.youtube.com/"
             ><font-awesome-icon
-              icon="fa-brands fa-facebook"
-              class="hover:text-[#385899]"
+              icon="fa-brands fa-youtube"
+              class="hover:text-[#ff0000]"
           /></a>
-          <a target="_blank" href="https://twitter.com/">
+          <a target="_blank" href="https://www.invisionapp.com/">
             <font-awesome-icon
-              icon="fa-brands fa-twitter"
-              class="hover:text-[#1d9bf0]"
+              icon="fa-brands fa-invision"
+              class="hover:text-[#ff0066]"
           /></a>
-          <a target="_blank" href="https://www.instagram.com/"
+          <a target="_blank" href="https://www.youtube.com/"
             ><font-awesome-icon
-              icon="fa-brands fa-instagram"
-              class="hover:text-[#ff00d4]"
+              icon="fa-brands fa-youtube"
+              class="hover:text-[#ff0000]"
           /></a>
           <a target="_blank" href="https://www.invisionapp.com/"
             ><font-awesome-icon
